@@ -78,3 +78,52 @@
     background-color: rgb(207, 189, 189); 
     border-radius: 8px;
 }
+
+/* Estilos para el hero. */
+
+.hero {
+    margin-top: 46px;
+    background-image: url('./assets/hero.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.hero__title {
+    color: white;
+    font-size: 2.2em;
+}
+
+.hero__subtitle {
+    color: white;
+    font-size: 1.5em;
+}
+
+.hero__description {
+    color: white;
+    margin: 0.5em;
+}
+
+.hero__links {
+    display: flex;
+    gap: 0.5em;
+    flex-direction: column;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.hero__link--primary {
+    padding: 0.5em;
+    color: white;
+    background-color: #83211E;
+    border-radius: 12px;
+}
+
+.hero__link--secondary {
+    padding: 0.5em;
+    color: white;
+    background-color: #83211E;
+    border-radius: 12px;
+}
