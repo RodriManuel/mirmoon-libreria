@@ -22,7 +22,7 @@
 
 .nav {
     position: absolute;
-    background-color: #212436;
+    background-color: #111827;
     height: 100vh; 
     top: 100%;
     left: 55%;
@@ -47,7 +47,7 @@
     margin: 1rem .5rem;
     gap: 0;
     border-radius: 8px;
-    background-color: #212436;
+    background-color: #111827;
 }
 
 .nav__link {
@@ -58,7 +58,7 @@
 }
 
 .nav__link:hover {
-    background-color: #141624;
+    background-color: #080c14;
     border-radius: 8px;
 }
 
