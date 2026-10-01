@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lora', serif;
+}
+
 /* Estilos para la barra de navegación. */
 .header {
     background-color: #111827; 
