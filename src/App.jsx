@@ -1,13 +1,9 @@
-import Novedades from "./components/home/Novedades"
-import Hero from "./components/home/Hero"
-import Navbar from "./components/Navbar"
+import Inicio from './pages/Inicio'
 
 function App() {
   return (
     <>
-      <Navbar/>
-      <Hero/>
-      <Novedades></Novedades>
+      <Inicio/>
     </>
   )
 }
