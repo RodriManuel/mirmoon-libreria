@@ -3,9 +3,9 @@ function Hero() {
 
     return (
         <section className="hero">
-            <h1 className="hero__title text-4xl">Librería Mirmoon</h1>
-            <h2 className="hero__subtitle text-3xl">Literatura para leer bajo otra luz</h2>
-            <p className="hero__description text-base">Todos los libros disonibles fuero leídos por nosotros.</p>
+            <h1 className="hero__title text-4xl font-bold">Librería Mirmoon</h1>
+            <h2 className="hero__subtitle text-3xl font-bold">Literatura para leer bajo otra luz</h2>
+            <p className="hero__description text-base font-medium">Todos los libros disponibles y recomendados fueron leídos por nosotros.</p>
 
             <div className="hero__links">
                 <a className="hero__link--primary text-sm" href="#">Explorar catálogo</a>
