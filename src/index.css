@@ -2,10 +2,13 @@
 
 body {
     font-family: 'DM Sans', sans-serif;
+    background-color: #080c14;
+    color: #E9F0F3;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Lora', serif;
+    color: #E9F0F3;
 }
 
 /* Estilos para la barra de navegación. */
@@ -62,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav__link {
     display: block; 
     text-decoration: none;
-    color: rgb(207, 189, 189);
+    color: #E9F0F3;
     padding: .5rem; 
 }
 
@@ -84,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .header__bar {
     height: 3px;
-    background-color: rgb(207, 189, 189); 
+    background-color: #E9F0F3; 
     border-radius: 8px;
 }
 
@@ -100,16 +103,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-.hero__title {
-    color: white;
-}
-
-.hero__subtitle {
-    color: white;
-}
-
 .hero__description {
-    color: white;
     margin-top: 0.2rem;
     margin-bottom: 0.25rem;
 }
@@ -124,15 +118,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero__link--primary {
     padding: 0.5rem;
-    color: white;
-    background-color: #a81b17;
+    background-color: #a81c17;
     border: 1px solid #771a17;
     border-radius: 8px;
 }
 
 .hero__link--secondary {
     padding: 0.5rem;
-    color: white;
     background-color: rgba(255, 255, 255, 0.15);
     border: 1px solid rgba(255, 255, 255, 0.75);
     border-radius: 8px;
@@ -142,15 +134,12 @@ h1, h2, h3, h4, h5, h6 {
 .card {
     background-color: #263746;
     width: 350px;
+    border: 1px solid #263746;
 }
 
 .card__favbtn:hover {
     color: #83211E;
     cursor: pointer;
-}
-
-.card__precio {
-    color: ghostwhite;
 }
 
 .card__button {
