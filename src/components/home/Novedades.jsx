@@ -1,3 +1,5 @@
+import LibroCardV1 from "../LibroCardV1"
+import libros from "../../data/libros"
 
 function Novedades() {
   return (
@@ -7,7 +9,11 @@ function Novedades() {
 
         <div className="swiper">
             <div className="swiper-wrapper">
-
+              {libros.map((item) => (
+                <div className="swiper-slide" key={item.id}>
+                  <LibroCardV1 libro={item} />
+                </div>
+              ))}
             </div>
         </div>
     </section>
