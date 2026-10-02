@@ -25,9 +25,8 @@ function LibroCardV1({ libro }) {
                 ${libro.precio.toLocaleString("es-AR")}
             </p>
 
-            <button className={`card__button mt-4 flex w-full items-center justify-center gap-2 rounded-md px-4 py-3 font-medium transition ${disponible ? "bg-[#a81b17] text-white" : "bg-[#83211E] cursor-not-allowed text-black"}`}>
-                🛒
-                {disponible ? "Agregar al carrito" : "Sin stock"}
+            <button className={`card__button mt-4 flex w-full items-center justify-center gap-2 rounded-md px-4 py-3 font-medium transition ${disponible ? "bg-[#a81b17] text-white" : "bg-gray-400 cursor-not-allowed text-gray-800"}`}>
+                {disponible ? "🛒Agregar al carrito" : "Sin stock"}
             </button>
         </article>
   )
