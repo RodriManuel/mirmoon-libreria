@@ -1,10 +1,15 @@
+import portadaEsfera from "../assets/portada_esfera_luminosa.jpg"
+import portadaTresCuerpos from "../assets/portada_tres_cuerpos.jpg"
+import portadaBosqueOscuro from "../assets/portada_bosque_oscuro.webp"
+import portadaFinDeLaMuerte from "../assets/portada_fin_de_la_muerte.webp"
+
 const libros = [
     {
         id: 1,
         titulo: "La esfera luminosa",
         categoria: "Ciencia Ficcón",
         autor: "Liu Cixin",
-        imagen: "../assets/portada_esfera_luminosa.jpg",
+        imagen: portadaEsfera,
         precio: 50550.0,
         stock: 0,
     },
@@ -13,7 +18,7 @@ const libros = [
         titulo: "El problema de los tres cuerpos",
         categoria: "Ciencia Ficcón",
         autor: "Liu Cixin",
-        imagen: "../assets/portada_tres_cuerpos.jpg",
+        imagen: portadaTresCuerpos,
         precio: 42845.0,
         stock: 10,
     },
@@ -22,7 +27,7 @@ const libros = [
         titulo: "El bosque oscuro",
         categoria: "Ciencia Ficcón",
         autor: "Liu Cixin",
-        imagen: "../assets/portada_bosque_oscuro.webp",
+        imagen: portadaBosqueOscuro,
         precio: 29470.0,
         stock: 22,
     },
@@ -31,7 +36,7 @@ const libros = [
         titulo: "El fin de la muerte",
         categoria: "Ciencia Ficcón",
         autor: "Liu Cixin",
-        imagen: "../assets/portada_fin_de_la_muerte.webp",
+        imagen: portadaFinDeLaMuerte,
         precio: 42500.0,
         stock: 11,
     },
