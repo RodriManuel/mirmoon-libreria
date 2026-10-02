@@ -1,5 +1,5 @@
-import portadaEsfera from "../assets/portada_esfera_luminosa.jpg"
-import portadaTresCuerpos from "../assets/portada_tres_cuerpos.jpg"
+import portadaEsfera from "../assets/portada_esfera_luminosa.webp"
+import portadaTresCuerpos from "../assets/portada_tres_cuerpos.webp"
 import portadaBosqueOscuro from "../assets/portada_bosque_oscuro.webp"
 import portadaFinDeLaMuerte from "../assets/portada_fin_de_la_muerte.webp"
 
