@@ -3,12 +3,12 @@ function LibroCardV1({ libro }) {
     const disponible = libro.stock > 0;
 
     return (
-        <article className="card relative flex flex-col rounded-2xl border border-gray-500 p-6 shadow-sm transition hover:shadow-md">
+        <article className="card relative flex flex-col rounded-2xl border border-gray-500 px-6 py-8 shadow-sm transition hover:shadow-md">
             <button className="card__favbtn absolute right-2 top-3 text-4xl leading-none transition text-white">
                 ♡
             </button>
 
-            <div className="flex h-80 items-center justify-center">
+            <div className="flex h-67 items-center justify-center">
                 <img className="max-h-full max-w-full object-contain shadow-md" src={libro.imagen} alt="" />
             </div>
 
