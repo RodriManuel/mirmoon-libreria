@@ -22,11 +22,11 @@ function Novedades() {
         freeMode={true}         
         navigation
         pagination={{ clickable: true }}
-        className="mySwiper px-4 py-4"
+        className="mySwiper px-4 py-4 [--swiper-navigation-color:#FFFFFF] [--swiper-pagination-color:#FFFFFF]"
       >
         {libros.map((item) => (
           <SwiperSlide key={item.id} className="!w-auto">
-            <LibroCardV1 className="w-64" libro={item} />
+            <LibroCardV1 libro={item} />
           </SwiperSlide>
         ))}
       </Swiper>
