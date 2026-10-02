@@ -5,13 +5,13 @@ import portadaFinDeLaMuerte from "../assets/portada_fin_de_la_muerte.webp"
 import portadaHormigasDinosaurios from "../assets/portada_sobre_hormigas_y_dinosaurios.webp"
 import portadaPajaroQueDaCuerda from "../assets/portada_cronica_del_pajaro_que_da_cuerda_al_mundo.webp"
 import portadaTokioBlues from "../assets/portada_tokio_blues.webp"
-import portadaElIdiota from "../assets/portada_el_idiota.jpeg"
+import portadaElIdiota from "../assets/portada_el_idiota.jpg"
 import portadaCrimenCastigo from "../assets/portada_crimen_y_castigo.webp"
 import portadaSubsuelo from "../assets/portada_memorias_del_subsuelo.webp"
 import portadaPobreGente from "../assets/portada_pobre_gente.webp"
 import portadaNochesBlancas from "../assets/portada_noches_blancas.webp"
 import portadaLittorio from "../assets/portada_el_culto_del_littorio.webp"
-import portadaQuienEsFascista from "../assets/portada_quien_es_fascista.webp"
+import portadaQuienEsFascista from "../assets/portada_quien_es_fascista.jpg"
 
 const libros = [
     {
