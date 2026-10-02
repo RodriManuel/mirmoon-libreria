@@ -1,9 +1,10 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import { Navigation, Pagination, FreeMode } from 'swiper/modules';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import 'swiper/css/free-mode';
 
 import LibroCardV1 from "../LibroCardV1";
 import libros from "../../data/libros";
@@ -15,21 +16,17 @@ function Novedades() {
       <h3 className="novedades__subtitle text-2xl text-center font-medium mb-6">Descubrí nuestras novedades</h3>
 
       <Swiper
-        modules={[Navigation, Pagination, Autoplay]}
-        spaceBetween={20}
-        slidesPerView={1}
+        modules={[Navigation, Pagination, FreeMode]}
+        slidesPerView={'auto'}
+        spaceBetween={20}       
+        freeMode={true}         
         navigation
         pagination={{ clickable: true }}
-        breakpoints={{
-          640: { slidesPerView: 2 },
-          768: { slidesPerView: 3 },
-          1024: { slidesPerView: 4 },
-        }}
-        className="mySwiper px-4"
+        className="mySwiper px-4 py-4"
       >
         {libros.map((item) => (
-          <SwiperSlide key={item.id}>
-            <LibroCardV1 libro={item} />
+          <SwiperSlide key={item.id} className="!w-auto">
+            <LibroCardV1 className="w-64" libro={item} />
           </SwiperSlide>
         ))}
       </Swiper>

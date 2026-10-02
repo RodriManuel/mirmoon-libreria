@@ -141,12 +141,12 @@ h1, h2, h3, h4, h5, h6 {
 /* Estilos de los cards */
 .card {
     background-color: #263746;
+    max-width: 400px;
 }
 
 @media (width < 640px) {
     .card {
-        width: 400px;
-        margin: 0 auto;
+        min-width: 290px;
     }    
 }
 
@@ -158,20 +158,6 @@ h1, h2, h3, h4, h5, h6 {
 .card__precio {
     color: ghostwhite;
 }
-/*
-.card__button {
-    padding: 0.5rem;
-    color: white;
-    background-color: #83211E;
-    border: 1px solid #771a17;
-    border-radius: 8px;    
-}*/
-/*
-.card__button {
-    background-color: #83211E;
-    border: 1px solid #771a17;    
-}*/
-
 
 .card__button {
     border-radius: 8px;      
