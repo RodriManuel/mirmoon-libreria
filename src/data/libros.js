@@ -17,7 +17,7 @@ const libros = [
     {
         id: 1,
         titulo: "La esfera luminosa",
-        categoria: "Ciencia Ficcón",
+        categoria: "Ciencia Ficción",
         autor: "Liu Cixin",
         imagen: portadaEsfera,
         precio: 50550.0,
@@ -26,7 +26,7 @@ const libros = [
     {
         id: 2,
         titulo: "El problema de los tres cuerpos",
-        categoria: "Ciencia Ficcón",
+        categoria: "Ciencia Ficción",
         autor: "Liu Cixin",
         imagen: portadaTresCuerpos,
         precio: 47500.0,
@@ -35,7 +35,7 @@ const libros = [
     {
         id: 3,
         titulo: "El bosque oscuro",
-        categoria: "Ciencia Ficcón",
+        categoria: "Ciencia Ficción",
         autor: "Liu Cixin",
         imagen: portadaBosqueOscuro,
         precio: 44600.0,
@@ -44,7 +44,7 @@ const libros = [
     {
         id: 4,
         titulo: "El fin de la muerte",
-        categoria: "Ciencia Ficcón",
+        categoria: "Ciencia Ficción",
         autor: "Liu Cixin",
         imagen: portadaFinDeLaMuerte,
         precio: 42500.0,
@@ -52,8 +52,8 @@ const libros = [
     },
     {
         id: 5,
-        titulo: "Sobre hormgigas y dinosaurios",
-        categoria: "Ciencia Ficcón",
+        titulo: "Sobre hormigas y dinosaurios",
+        categoria: "Ciencia Ficción",
         autor: "Liu Cixin",
         imagen: portadaHormigasDinosaurios,
         precio: 34740.0,
@@ -70,7 +70,7 @@ const libros = [
     },
     {
         id: 7,
-        titulo: "Tokyo Blues",
+        titulo: "Tokio Blues",
         categoria: "Romance",
         autor: "Haruki Murakami",
         imagen: portadaTokioBlues,
