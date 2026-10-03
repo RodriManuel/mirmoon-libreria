@@ -31,17 +31,17 @@ function Navbar() {
         </nav>
 
         <div className='header__actions flex items-center gap-2'>
-            <a className="header__actions-btn" href="">
-                <ShoppingCart/>
-            </a>
+            <button className="header__actions-btn" href="">
+                <Sun/>
+            </button>
 
             <a className="header__actions-btn" href="">
                 <Heart/>
             </a>    
 
-            <button className="header__actions-btn" href="">
-                <Sun/>
-            </button>
+            <a className="header__actions-btn" href="">
+                <ShoppingCart/>
+            </a>
         </div>        
     </header>
     )

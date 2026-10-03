@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 .header {
     background-color: #111827; 
     width: 100%;
-    height: 55px;
+    height: 60px;
     padding: 0 0.45rem;
     display: flex;
     justify-content: space-between;
@@ -34,30 +34,28 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav {
     position: absolute;
-    background-color: #111827;
-    height: 100vh; 
+    background-color: #0d131f;
     top: 100%;
-    left: 55%;
-    width: 45%;
-    box-shadow: -5px 0px 6px -3px rgba(0, 0, 0, .75);
+    left: 0;
+    width: 100%;
+    box-shadow: 0px 5px 6px -3px rgba(0, 0, 0, .75);
     opacity: 0;
     visibility: hidden;
-    transform: translateX(200px);
+    transform: translateY(-10px);
     transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
 }
 
 .nav.active {
     opacity: 1;
     visibility: visible;
-    transform: translateX(0);
+    transform: translateY(0);
 }
 
 .nav__list {
+    padding: .5rem .25rem;
     list-style-type: none;
     display: flex;
     flex-direction: column;
-    margin: 1rem .5rem;
-    gap: 0;
     border-radius: 8px;
     background-color: #111827;
 }
@@ -66,7 +64,7 @@ h1, h2, h3, h4, h5, h6 {
     display: block; 
     text-decoration: none;
     color: #E9F0F3;
-    padding: .5rem; 
+    padding: .5rem .45rem; 
 }
 
 .nav__link:hover {
@@ -94,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Estilos para el hero. */
 
 .hero {
-    margin-top: 55px;
+    margin-top: 60px;
     background-image: url('./assets/hero.png');
     background-size: cover;
     background-repeat: no-repeat;
