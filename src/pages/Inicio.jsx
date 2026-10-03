@@ -1,3 +1,4 @@
+import Categorias from "../components/home/Categorias"
 import Novedades from "../components/home/Novedades"
 import Hero from "../components/home/Hero"
 import Navbar from "../components/Navbar"
@@ -8,6 +9,7 @@ function Inicio() {
       <Navbar/>
       <Hero/>
       <Novedades></Novedades>
+      <Categorias></Categorias>
     </>
   )
 }
