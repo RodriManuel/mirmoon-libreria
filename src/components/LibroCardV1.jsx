@@ -5,7 +5,7 @@ function LibroCardV1({ libro }) {
 
     return (
         <article className="card relative flex flex-col rounded-2xl px-6 py-8 shadow-sm transition hover:shadow-md">
-            <button className="card__favbtn absolute right-5 top-6 text-4xl leading-none transition text-white">
+            <button className="card__favbtn absolute right-3 top-3 text-4xl leading-none transition text-white">
                 <Heart></Heart>
             </button>
 
@@ -15,8 +15,7 @@ function LibroCardV1({ libro }) {
 
             <div className="mt-2">
                 <h4 className="text-xl font-semibold">
-                    {libro.titulo.length > 23 ? `${libro.titulo.slice(0, 23)}...` 
-                : libro.titulo}
+                    {libro.titulo.length > 21 ? `${libro.titulo.slice(0, 21)}...` : libro.titulo}
                 </h4>
                 <p className="text-base">
                     {libro.autor}
