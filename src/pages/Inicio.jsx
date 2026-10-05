@@ -1,3 +1,4 @@
+import Footer from "../components/Footer"
 import Categorias from "../components/home/Categorias"
 import Novedades from "../components/home/Novedades"
 import Hero from "../components/home/Hero"
@@ -8,8 +9,9 @@ function Inicio() {
     <>
       <Navbar/>
       <Hero/>
-      <Novedades></Novedades>
-      <Categorias></Categorias>
+      <Novedades/>
+      <Categorias/>
+      <Footer/>
     </>
   )
 }
