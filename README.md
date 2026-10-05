@@ -1,7 +1,7 @@
 # Librería Mirmoon
 Tienda online de libros desarrollada con React como parte del primer parcial de la materia **Construcción de Interfaces de Usuario**
 
-Demo Live: [https://mirmoon-libreria.netlify.app/](https://mirmoon-libreria.netlify.app/)
+Demo Live: [https://mirmoon-libreria.vercel.app/](https://mirmoon-libreria.vercel.app/)
 
 ## Sobre el proyecto
 ...
@@ -15,4 +15,4 @@ Demo Live: [https://mirmoon-libreria.netlify.app/](https://mirmoon-libreria.netl
 ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-white?logo=tailwindcss&logoColor=white&color=06B6D4) 
 ![Swiper](https://img.shields.io/badge/Swiper-white?logo=swiper&logoColor=white&color=6332F6)<br>
 **Deployment** <br>
-![Netlify](https://img.shields.io/badge/Netlify-white?logo=netlify&logoColor=white&color=00C7B7)
+![Netlify](https://img.shields.io/badge/Vercel-white?logo=vercel&logoColor=white&color=000000)
