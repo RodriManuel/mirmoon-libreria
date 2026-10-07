@@ -14,7 +14,6 @@ function Carousel({ items, renderItem }) {
       spaceBetween={10}       
       freeMode={true}         
       navigation
-      pagination={{ clickable: true }}
       className="mySwiper px-4 py-4 [--swiper-navigation-color:#FFFFFF] [--swiper-pagination-color:#FFFFFF]"
     >
       {items.map((item, index) => (

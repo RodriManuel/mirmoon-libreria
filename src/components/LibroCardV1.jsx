@@ -15,7 +15,7 @@ function LibroCardV1({ libro }) {
 
             <div className="mt-1">
                 <h4 className="text-xl font-semibold">
-                    {libro.titulo.length > 18 ? `${libro.titulo.slice(0, 17)}...` : libro.titulo}
+                    {libro.titulo.length > 16 ? `${libro.titulo.slice(0, 16)}...` : libro.titulo}
                 </h4>
                 <p className="text-base">
                     {libro.autor}
