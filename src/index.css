@@ -89,6 +89,32 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 8px;
 }
 
+@media (width >= 640px) {
+    .header__toggle {
+        display: none;
+    }
+
+    .nav {
+        position: static;
+        width: auto;
+        background-color: transparent;
+        box-shadow: none;
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+        transition: none;
+    }
+
+    .nav__list {
+        flex-direction: row;
+        padding: 0;
+    }
+
+    .nav__link {
+        padding: 18px 10px;
+    }
+}
+
 /* Estilos para el hero. */
 
 .hero {
