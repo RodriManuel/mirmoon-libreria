@@ -4,29 +4,29 @@ function LibroCardV1({ libro }) {
     const disponible = libro.stock > 0;
 
     return (
-        <article className="card relative flex flex-col rounded-2xl px-6 py-8 shadow-sm transition hover:shadow-md">
-            <button className="card__favbtn absolute right-3 top-3 text-4xl leading-none transition text-white">
+        <article className="card relative flex flex-col rounded-2xl px-4 py-5 shadow-sm transition hover:shadow-md">
+            <button className="card__favbtn absolute right-1 top-4 text-4xl leading-none transition text-white">
                 <Heart></Heart>
             </button>
 
-            <div className="flex h-67 items-center justify-center">
+            <div className="flex h-60 items-center justify-center">
                 <img className="max-h-full max-w-full object-contain shadow-md" src={libro.imagen} alt="" />
             </div>
 
-            <div className="mt-2">
+            <div className="mt-1">
                 <h4 className="text-xl font-semibold">
-                    {libro.titulo.length > 21 ? `${libro.titulo.slice(0, 21)}...` : libro.titulo}
+                    {libro.titulo.length > 18 ? `${libro.titulo.slice(0, 17)}...` : libro.titulo}
                 </h4>
                 <p className="text-base">
                     {libro.autor}
                 </p>
             </div>
 
-            <p className="card__precio mt-1 text-xl font-semibold">
+            <p className="card__precio mt-0 text-xl font-semibold">
                 ${libro.precio.toLocaleString("es-AR")}
             </p>
 
-            <button className={`card__button mt-2 flex w-full items-center justify-center gap-2 rounded-md px-4 py-3 text-sm transition ${disponible ? "bg-[#a81b17] text-white" : "bg-gray-400 cursor-not-allowed text-gray-800"}`}>
+            <button className={`card__button mt-1 flex w-full items-center justify-center gap-2 rounded-md px-3 py-3 text-sm transition ${disponible ? "bg-[#a81b17] text-white" : "bg-gray-400 cursor-not-allowed text-gray-800"}`}>
                 {disponible ? <><ShoppingCart size={20}/> Agregar al carrito</> : "Sin stock"}
             </button>
         </article>
